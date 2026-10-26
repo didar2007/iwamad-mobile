@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "iwamad-mobile",
@@ -20,6 +21,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "baseUrl": "/iwamad-mobile"
     }
   }
 }
