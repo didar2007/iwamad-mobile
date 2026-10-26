@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "iwamad-mobile",
@@ -23,6 +24,9 @@
     },
     "plugins": [
       "expo-status-bar"
-    ]
+    ],
+    "experiments": {
+      "baseUrl": "/iwamad-mobile"
+    }
   }
 }
