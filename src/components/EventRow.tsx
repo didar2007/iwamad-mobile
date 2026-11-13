@@ -1,15 +1,9 @@
 
 import { Pressable, Text, StyleSheet } from 'react-native';
-
-type Event = {
-  id: string;
-  title: string;
-  date: string;
-  location: string;
-};
+import type { CampusEvent } from '../data/events';
 
 type EventRowProps = {
-  event: Event;
+  event: CampusEvent;
   onPress: () => void;
   onLongPress: () => void;
 };
