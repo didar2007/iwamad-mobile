@@ -81,6 +81,8 @@ export default function EventsScreen() {
       ) : (
         <FlatList
           data={filteredEvents}
+          refreshing={isRefetching}
+          onRefresh={() => refetch()}
           keyExtractor={(item) => String(item.id)}
           renderItem={({ item }) => (
             <EventRow
